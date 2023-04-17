@@ -5,29 +5,38 @@
     width: 500px;
     height: 800px;
     padding: 10px;
-    border: 5px solid white;
+    
 }
 body{
 
     background-color: black;
 }
-
-.post-header {
-    float: none;
-    margin-bottom: auto;
-    justify-content: space-between;
+.p.id {
+    display: flex;
+    justify-content: right;
 }
-.post-img{
-    width: auto;
-    height: 100%;
+.card {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+    background: white;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
 }
 #img {
     display: block;
     justify-content: center;
-    margin-left: 0px;
-    margin-right: 0px;
     width: 100%;
     height: auto;
+    align-content:space-around;
 }
 #post-info {
     justify-content: last baseline;
